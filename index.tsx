@@ -13,7 +13,7 @@ import { Menu, React, UserStore } from "@webpack/common";
 import type { Channel, User } from "discord-types/general";
 
 // TODO: allow multiple commands with a table like
-// TODO: NAME | COMMAND | CHANNEL
+// TODO: NAME | COMMAND | SERVERID | CHANNELID
 export const settings = definePluginSettings({
     command: {
         type: OptionType.STRING,
